@@ -17,6 +17,8 @@ WORKDIR /ros2_ws/src
 # Clonar ros_tcp_endpoint (branch dev_ros2)
 RUN git clone -b dev-ros2 https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git ros_tcp_endpoint
 
+RUN git clone https://github.com/elephantrobotics/mycobot_ros2.git
+
 # Volver a la raíz del workspace y compilar
 WORKDIR /ros2_ws
 RUN . /opt/ros/jazzy/setup.sh && colcon build
