@@ -2,7 +2,7 @@
 
 Imagen Docker con **ROS 2 Jazzy**, el puente **ROS-TCP-Endpoint** y los paquetes del **myCobot** de Elephant Robotics, listos para conectarse con un proyecto de Unity.
 
-> Repositorio complementario (proyecto Unity): **[Practica2ROS2Unity](https://github.com/DiegoMurilloP/Practica2ROS2Unity)**
+> Repositorio complementario (proyecto Unity): **[UnityROS2-myCobot](https://github.com/DiegoMurilloP/UnityROS2-myCobot)**
 
 ## Contenido de la imagen
 
@@ -54,7 +54,7 @@ Dentro del contenedor:
 ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=0.0.0.0
 ```
 
-Luego, en Unity (proyecto [Practica2ROS2Unity](https://github.com/DiegoMurilloP/Practica2ROS2Unity)), configura *ROS IP* = `127.0.0.1`, *Port* = `10000` y pulsa Play.
+Luego, en Unity (proyecto [UnityROS2-myCobot](https://github.com/DiegoMurilloP/UnityROS2-myCobot)), configura *ROS IP* = `127.0.0.1`, *Port* = `10000` y pulsa Play.
 
 ### Abrir más terminales en el mismo contenedor
 
